@@ -1,5 +1,5 @@
 import 'antd/dist/antd.css';
-import './assets/less/app.less'
+import './App.scss'
 import Navigator from './components/Navigator/Navigator';
 function App() {
   return (

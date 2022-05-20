@@ -1,9 +1,11 @@
 import AppLayout from "../Templates/Layout";
-
-
-const HotelDetails = ()=>{
+import CustomCarousel from "../Molecules/Carousel";
+import HotelDetailMock from "../../library/mocks/HotelDetails";
+import Detail from "../Organisms/Sections/Details/Detail";
+const HotelDetails = () => {
     return <AppLayout>
-        Hotel Detail
+        <CustomCarousel {...HotelDetailMock.images} />
+        <Detail data={HotelDetailMock} />
     </AppLayout>
 }
 

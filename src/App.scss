@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+body,*{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.layout{
+  overflow: scroll;
+  background-color:#FAFAFA !important;
+ 
+
+  .header{
+      background-color:#FAFAFA !important;
+      height: 73px !important;
+      padding: 8px 28px  !important;
+      
+
+    .ant-page-header {
+      padding: 0;
+
+      .ant-page-header-content{
+        padding: 0 !important;
+        width: 100%;
+      }
+    }
+  }
+  
+  
+  .content{
+    background-color: #fff !important;
+  }
+  
+  .footer{
+    background-color: #7B7C7E !important;
+    color:#fff;
+    margin-top:3em;
+
+    span{
+      font-size: .9em;
+    }
+  }
+}
+
+.w-100{
+  width: 100%;
+}
+
+
+
+::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.ant-input-group > .ant-input:first-child, .ant-input-group-addon:first-child{
+  border-right: none !important;
+}
+
+
+.ant-input-group-addon{
+  border-left: none !important;
+  background-color: #fff !important;
+}
+
+
+.ant-form-vertical .ant-form-item-label > label{
+  color:#7B7C7E;
+  font-size:19px;
+}
