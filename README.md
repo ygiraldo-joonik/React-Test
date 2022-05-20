@@ -7,7 +7,7 @@ To run the project follow the instructions:
 
 - yarn start
 
-The project will start running at the url [http://localhost:3000/], available urls:
+The project will start running at the url (http://localhost:3000/), available urls:
 
-- [http://localhost:3000/car/tesla]
-- [http://localhost:3000/hotel/waldorf-astoria]
+- (http://localhost:3000/car/tesla)
+- (http://localhost:3000/hotel/waldorf-astoria)
